@@ -98,7 +98,7 @@ btnHold.addEventListener('click', ()=>{
         document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
         //checking the winning condition that is score>=100
-        if(scores[activePlayer] >=10){
+        if(scores[activePlayer] >=100){
             //finish the game
             playing=false;
             //make the dice hidden
